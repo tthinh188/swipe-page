@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CPSC475-Project4</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="json_url_name_default_value">CNU - Defender</string>
+
+    <string-array name="JSON_URL_NAME">
+        <item>CNU - Defender</item>
+        <item>Pair - Teton Software - Pets</item>
+    </string-array>
+
+    <string-array name="JSON_URL">
+        <item>http://www.pcs.cnu.edu/~kperkins/pets/</item>
+        <item>http://www.tetonsoftware.com/pets/</item>
+    </string-array>
+</resources>

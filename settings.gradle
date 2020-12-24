@@ -1,0 +1,2 @@
+rootProject.name='CPSC475-Project4'
+include ':app'

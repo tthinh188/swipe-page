@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.cpsc475_project4.WebImageView_TP
+        android:id="@id/imageView"
+        class="com.example.project4.WebImageView_TP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#33777777"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#33777777"
+            android:gravity="center"
+            android:text="Getting Info"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</FrameLayout>
